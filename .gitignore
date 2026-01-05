@@ -1,0 +1,69 @@
+# ======================
+# Environment variables
+# ======================
+.env
+
+# ======================
+# Python cache
+# ======================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# ======================
+# Virtual environments
+# ======================
+.env/
+venv/
+.venv/
+insta_video_text/
+
+# ======================
+# Conda
+# ======================
+conda-meta/
+*.conda
+
+# ======================
+# OS files
+# ======================
+.DS_Store
+Thumbs.db
+
+# ======================
+# IDE / Editor
+# ======================
+.vscode/
+.idea/
+*.swp
+
+# ======================
+# Logs
+# ======================
+*.log
+
+# ======================
+# Generated media files
+# ======================
+temp_audio.wav
+*.wav
+*.mp3
+*.mp4
+
+# ======================
+# Output files
+# ======================
+english_text.txt
+tanglish_output.txt
+
+# ======================
+# Model / cache files
+# ======================
+.cache/
+.whisper/
+
+# ======================
+# Notebooks
+# ======================
+.ipynb_checkpoints/

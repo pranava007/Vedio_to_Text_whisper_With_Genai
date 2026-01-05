@@ -1,0 +1,14 @@
+openai-whisper
+moviepy==1.0.3
+
+ffmpeg-python
+torch
+numpy
+openai
+python-dotenv
+
+
+
+# pip install -r requirements.txt
+# conda create -n insta_video_text python=3.10 -y
+# conda activate insta_video_text
