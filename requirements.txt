@@ -1,3 +1,26 @@
+# # Core
+# flask==3.0.3
+# python-dotenv==1.0.1
+
+# # OpenAI
+# openai==2.14.0
+# tiktoken==0.12.0
+
+# # Whisper + Audio
+# openai-whisper==20250625
+# ffmpeg-python==0.2.0
+# moviepy==1.0.3
+
+# # ML Core (CPU only – Render safe)
+# torch==2.1.2
+# numpy==1.26.4
+
+# # Whisper dependency
+# numba==0.59.1
+
+
+
+
 flask==3.0.3
 python-dotenv==1.0.1
 
@@ -8,13 +31,11 @@ openai-whisper==20250625
 moviepy==1.0.3
 ffmpeg-python==0.2.0
 
-# ML (Render-compatible)
 torch
 numpy==1.26.4
 numba==0.59.1
 
-
-
+gunicorn
 
 
 # pip install -r requirements.txt
