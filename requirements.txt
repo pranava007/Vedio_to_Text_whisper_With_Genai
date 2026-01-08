@@ -1,14 +1,26 @@
-openai-whisper
+# Core
+flask==3.0.3
+python-dotenv==1.0.1
+
+# OpenAI
+openai==2.14.0
+tiktoken==0.12.0
+
+# Whisper + Audio
+openai-whisper==20250625
+ffmpeg-python==0.2.0
 moviepy==1.0.3
 
-ffmpeg-python
-torch
-numpy
-openai
-python-dotenv
+# ML Core (CPU only – Render safe)
+torch==2.1.2
+numpy==1.26.4
+
+# Whisper dependency
+numba==0.59.1
+
 
 
 
 # pip install -r requirements.txt
-# conda create -n insta_video_text python=3.10 -y
-# conda activate insta_video_text
+# conda create -n insta_video1_text python=3.10 numpy=1.26 -y
+# conda activate insta_video1_text
